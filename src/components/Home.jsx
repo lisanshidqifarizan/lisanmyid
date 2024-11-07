@@ -7,17 +7,17 @@ import Experience from './Experience.js';
 const Home = () => {
     //? Web Title here!!
     const webTitle = "Lisan Shidqi Farizan | Home";
-    
+
     return (
-    <>
-        <Helmet title={webTitle}/>
-		<div class="main-wrapper">
-			 {/*  Profile  */}
-			<Profile />
-			 {/* Experience Section  */}
-			<Experience />
-		</div>
-    </>
+        <>
+            <Helmet title={webTitle} />
+            <div class="main-wrapper">
+                {/*  Profile  */}
+                <Profile />
+                {/* Experience Section  */}
+                <Experience />
+            </div>
+        </>
     )
 }
 
