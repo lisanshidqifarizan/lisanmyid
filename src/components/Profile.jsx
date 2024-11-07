@@ -1,5 +1,5 @@
-import About from "./About"
-import Contact from "./Contact"
+import About from "./About.jsx"
+import Contact from "./Contact.jsx"
 import Me from '../assets/img/projectsImg/me.png'
 
 const Profile = () => {

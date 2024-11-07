@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 
-import Profile from './Profile.js';
-import Experience from './Experience.js';
+import Profile from './Profile.jsx';
+import Experience from './Experience.jsx';
 
 
 const Home = () => {

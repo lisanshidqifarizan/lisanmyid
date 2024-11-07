@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
-import ProjectCard from "./ProjectCard.js"
-import ToolSkillCard from "./ToolAndSkillCard.js"
+import ProjectCard from "./ProjectCard.jsx"
+import ToolSkillCard from "./ToolAndSkillCard.jsx"
 
 const Experience = () => {
     const [showCard, setShowCard] = useState();
